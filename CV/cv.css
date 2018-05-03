@@ -1,0 +1,44 @@
+h3 {
+  text-shadow: 2px 2px 5px red;
+  font-size:35px;
+  text-align:left;
+}
+body {
+  font-family: 'Covered By Your Grace';
+  color: white;
+  background-image: url("animated_mario_background.gif");
+  background-position: top;
+  background-size: 1280px 890px;
+  text-shadow: 4px 4px 7px black;
+}
+div.trans {
+    width: 100%;
+    height: 100px;
+    overflow: auto;
+    transition: width 1s,height 1s;
+}
+div:hover {
+    height: 315px;
+}
+.imagen{
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+.img-contacto{
+  width: 32px;
+  height: 32px;
+  float: left;
+}
+/* unvisited link */
+a:link {
+  color: violet;
+}
+/* visited link */
+a:visited {
+  color: yellow;
+}
+/* mouse over link */
+a:hover {
+  color: red;
+}
