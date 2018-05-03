@@ -1,0 +1,51 @@
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+/* visited link */
+a:visited {
+  color: indigo;
+}
+/* mouse over link */
+a:hover {
+  color: mediumblue;
+}
+body {
+  font-family: 'Six Caps';
+  color: white;
+  background-image: url("puzzle-background.jpg");
+  background-size: 1920px 1440px;
+  text-shadow: 3px 3px 3px black;
+}
+img{
+    width: 450px;
+    height: 450px;
+}
+td {
+    width:145px;
+    height:145px;
+}
+div.gallery {
+    border: 1px solid #ccc;
+    padding: 5px;
+    float: left;
+    width: 160px;
+    height: 160px;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+}
+div.gallery img {
+    vertical-align: middle;
+    width: 160px;
+    height: 160px;
+}
+.center {
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 600px;
+    text-align: left;
+    padding: 10px;
+}
